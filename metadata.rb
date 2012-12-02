@@ -1,5 +1,5 @@
-maintainer       "YOUR_COMPANY_NAME"
-maintainer_email "YOUR_EMAIL"
+maintainer       "Saadullah Saeed"
+maintainer_email "saadullah.saeed@peanutlabs.com"
 license          "All rights reserved"
 description      "Installs/Configures php-redis"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))

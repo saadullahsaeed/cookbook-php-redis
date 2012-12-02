@@ -2,7 +2,7 @@
 # Cookbook Name:: php-redis
 # Recipe:: default
 #
-# Copyright 2012, YOUR_COMPANY_NAME
+# Copyright 2012, Saadullah Saeed
 #
 # All rights reserved - Do Not Redistribute
 #
@@ -30,6 +30,6 @@ execute "build & install php-redis" do
 end
 
 execute "enable php-redis" do
-  command "echo 'extension=redis.so' > #{node[:php_fpm][:dir]}/conf.d/phpredis.ini"
+  command "echo 'extension=redis.so' > #{node[:php][:dir]}/conf.d/phpredis.ini"
   user node[:php_redis][:user]
 end
